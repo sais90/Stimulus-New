@@ -1,362 +1,357 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>index</title>
+    <link rel="stylesheet" href="styles/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> index </title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/font-awesome.min.css">
-</head>
-
-<body>
-    <header class="header">
-        <!-- <div class="header__greetings"> -->
+  <body>
+    <div class="page">
+      <header class="header">
         <div class="header__logo">Stimulus</div>
-        <div class="header__nav nav-header">
-            <a class="nav-header__link" href="#skills">HOME</a>
-            <a class="nav-header__link" href="#footer">ABOUT ME</a>
-            <a class="nav-header__link" href="#activity">EXPERIENCES</a>
-            <a class="nav-header__link" href="#education">TESTIMONIAL</a>
-            <a class="nav-header__link" href="#experiences">CONTACT</a>
+        <div class="header__nav nav">
+          <a class="nav__link" href="#skills">HOME</a>
+          <a class="nav__link" href="#footer">ABOUT ME</a>
+          <a class="nav__link" href="#activity">EXPERIENCES</a>
+          <a class="nav__link" href="#education">TESTIMONIAL</a>
+          <a class="nav__link" href="#experiences">CONTACT</a>
         </div>
-    </header>
-    <div class="greetings">
+      </header>
+
+      <div class="greetings">
         <div class="greetings__avatar">
-            <img class="greetings__img" src="images/5.jpg">
+          <img class="greetings__img" src="images/5.jpg" />
         </div>
 
         <!-- уточнить название обертки -->
         <div class="greetings-content-wrapper">
-            <div class="greetings__content content-greetings">
-                <div class="content-greetings__welcome">
-                    WELCOME TO MY WEBSITE
-                </div>
-                <!-- жирный текст, пересмотреть класс -->
-                <div class="content-greetings__title">
-                    Hello, I am <span class="text_bold">Stimulus</span>
-                    currently based in New York city.
-                </div>
-                <div class="content-greetings__text">
-                    Donec auctor arcu at efficitur lacinia.
-                    Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non
-                    pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.
-                </div>
-                <button class="content-greetings__button">GET STARTED</button>
+          <div class="greetings__content content-greetings">
+            <div class="content-greetings__welcome">
+              WELCOME TO MY WEBSITE
             </div>
+            <!-- жирный текст, пересмотреть класс -->
+            <div class="content-greetings__title">
+              Hello, I am <span class="text_bold">Stimulus</span>
+              currently based in New York city.
+            </div>
+            <div class="content-greetings__text">
+              Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in.
+              Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.
+            </div>
+            <button class="content-greetings__button">GET STARTED</button>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="skills">
+      <div class="skills">
         <div class="skills-content-wrapper">
-            <div class="skills__content content-skills">
-                <div class="content-skills__title">
-                    Donec auctor
-                </div>
-                <a class="content-skills__link" href="#skills">
-                    Sed vulputate vitae diam quis bibendum
-                </a>
-                <!-- <div class="donec__text content-text text text_s text_orange">Sed vulputate vitae diam quis bibendum
-                        </div> -->
-                <div class="content-skills__text">
-                    Phasellus vulputate tellus nec tortor varius
-                    elementum. Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu, iaculis congue sem.
-                    Mauris convallis eros massa.
-                </div>
-                <div class="content-skills__text">
-                    Quisque viverra iaculis aliquam. Etiam volutpat, justo
-                    non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.
-                </div>
+          <div class="skills__content content-skills">
+            <div class="content-skills__title">
+              Donec auctor
             </div>
+            <a class="content-skills__link" href="#skills">
+              Sed vulputate vitae diam quis bibendum
+            </a>
+            <!-- <div class="donec__text content-text text text_s text_orange">Sed vulputate vitae diam quis bibendum
+                        </div> -->
+            <div class="content-skills__text">
+              Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna,
+              fausibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.
+            </div>
+            <div class="content-skills__text">
+              Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis
+              porta odio odio at velit.
+            </div>
+          </div>
         </div>
         <div class="skills__avatar">
-            <img class="skills__img" src="images/1.jpg">
+          <img class="skills__img" src="images/1.jpg" />
         </div>
         <div class="skills-rate-wrapper">
-            <div class="skills__rate rate-skills">
-                <div class="rate-skills__title">
-                    My Skills
-                </div>
-                <div class="rate-skills__text">
-                    Photoshop. HTML CSS JS. Web Design
-                </div>
-                <div class="rate-skills__item">
-                    <div class="item-rate-skills__title">
-                        Frontend Design
-                    </div>
-                    <div class="item-rate-skills__value">
-                        90%
-                    </div>
-                </div>
-                <div class="rate-skills__diagram diagram-skills">
-                    <div class="diagram-skills__left diagram-90"></div>
-                    <div class="diagram-skills__right diagram-10"></div>
-                </div>
-
-                <div class="rate-skills__item">
-                    <div class="item-rate-skills__title">
-                        Backend Processing
-                    </div>
-                    <div class="item-rate-skills__value">
-                        70%
-                    </div>
-                </div>
-                <div class="rate-skills__diagram diagram-skills">
-                    <div class="diagram-skills__left diagram-70"></div>
-                    <div class="diagram-skills__right diagram-30"></div>
-                </div>
-
-                <div class="rate-skills__item">
-                    <div class="item-rate-skills__title">
-                        HTML5 & CSS3
-                    </div>
-                    <div class="item-rate-skills__value">
-                        80%
-                    </div>
-                </div>
-                <div class="rate-skills__diagram diagram-skills">
-                    <div class="diagram-skills__left diagram-80"></div>
-                    <div class="diagram-skills__right diagram-20"></div>
-                </div>
-
+          <div class="skills__rate rate-skills">
+            <div class="rate-skills__title">
+              My Skills
             </div>
+            <div class="rate-skills__text">
+              Photoshop. HTML CSS JS. Web Design
+            </div>
+            <div class="rate-skills__item">
+              <div class="item-rate-skills__title">
+                Frontend Design
+              </div>
+              <div class="item-rate-skills__value">
+                90%
+              </div>
+            </div>
+            <div class="rate-skills__diagram diagram-skills">
+              <div class="diagram-skills__left diagram-90"></div>
+              <div class="diagram-skills__right diagram-10"></div>
+            </div>
+
+            <div class="rate-skills__item">
+              <div class="item-rate-skills__title">
+                Backend Processing
+              </div>
+              <div class="item-rate-skills__value">
+                70%
+              </div>
+            </div>
+            <div class="rate-skills__diagram diagram-skills">
+              <div class="diagram-skills__left diagram-70"></div>
+              <div class="diagram-skills__right diagram-30"></div>
+            </div>
+
+            <div class="rate-skills__item">
+              <div class="item-rate-skills__title">
+                HTML5 & CSS3
+              </div>
+              <div class="item-rate-skills__value">
+                80%
+              </div>
+            </div>
+            <div class="rate-skills__diagram diagram-skills">
+              <div class="diagram-skills__left diagram-80"></div>
+              <div class="diagram-skills__right diagram-20"></div>
+            </div>
+          </div>
         </div>
+      </div>
 
-    </div>
-
-
-    <div class="activity">
+      <div class="activity">
         <div class="item-block-wrapper block-wrapper-1">
-            <div class="activity__item-block block-activity">
-                <div class="block-activity__icon">
-                    <i class="fa fa-desktop fa-2x"></i>
-                </div>
-                <div class="block-activity__title">
-                    Interface Design
-                </div>
-                <div class="block-activity__text">
-                    Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.
-                </div>
+          <div class="activity__item-block block-activity">
+            <div class="block-activity__icon">
+              <i class="fa fa-desktop fa-2x"></i>
             </div>
+            <div class="block-activity__title">
+              Interface Design
+            </div>
+            <div class="block-activity__text">
+              Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.
+            </div>
+          </div>
         </div>
         <div class="item-block-wrapper block-wrapper-2">
-            <div class="activity__item-block block-activity">
-                <div class="block-activity__icon">
-                    <i class="fa fa-send fa-2x"></i>
-                </div>
-                <div class="block-activity__title">
-                    Media Strategy
-                </div>
-                <div class="block-activity__text">
-                    Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu, iaculis congue sem.
-                </div>
+          <div class="activity__item-block block-activity">
+            <div class="block-activity__icon">
+              <i class="fa fa-send fa-2x"></i>
             </div>
+            <div class="block-activity__title">
+              Media Strategy
+            </div>
+            <div class="block-activity__text">
+              Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu, iaculis congue sem.
+            </div>
+          </div>
         </div>
         <div class="item-block-wrapper block-wrapper-3">
-            <div class="activity__item-block block-activity">
-                <div class="block-activity__icon">
-                    <i class="fa fa-calendar fa-2x"></i>
-                </div>
-                <div class="block-activity__title">
-                    Mobile App
-                </div>
-                <div class="block-activity__text">
-                    Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
-                </div>
+          <div class="activity__item-block block-activity">
+            <div class="block-activity__icon">
+              <i class="fa fa-calendar fa-2x"></i>
             </div>
+            <div class="block-activity__title">
+              Mobile App
+            </div>
+            <div class="block-activity__text">
+              Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
+            </div>
+          </div>
         </div>
         <div class="item-block-wrapper block-wrapper-4">
-            <div class="activity__item-block block-activity">
-                <div class="block-activity__icon">
-                    <i class="fa fa-html5 fa-2x"></i>
-                </div>
-                <div class="block-activity__title">
-                    Coding
-                </div>
-                <div class="block-activity__text">
-                    Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
-                </div>
+          <div class="activity__item-block block-activity">
+            <div class="block-activity__icon">
+              <i class="fa fa-html5 fa-2x"></i>
             </div>
+            <div class="block-activity__title">
+              Coding
+            </div>
+            <div class="block-activity__text">
+              Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="unname-block experiences">
+      <div class="unname-block experiences">
         <div class="unname-block__avatar">
-            <img class="unname-block__img" src="images/4.jpg">
+          <img class="unname-block__img" src="images/4.jpg" />
         </div>
         <div class="unname-block-content-wrapper">
-            <div class="unname-block__content content-unname-block">
-                <div class="content-unname-block__title">
-                    My experiences
-                </div>
-                <div class="content-unname-block__text">
-                    Previous companies and my tasks
-                </div>
-                <div class="content-unname-block__item item-unname-block">
-                    <div class="item-unname-block__icon">
-                        <i class="fa fa-desktop fa-2x"></i>
-                    </div>
-                    <div class="item-unname-block__content content-item-unname-block">
-                        <div class="content-item-unname-block__header header-item-unname-block">
-                            <div class="header-item-unname-block__title">
-                                Graphic Designer
-                            </div>
-                            <div class="header-item-unname-block__date">
-                                2014 Jul - 2015 Sep
-                            </div>
-                        </div>
-                        <div class="content-item-unname-block__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-unname-block__item item-unname-block">
-                    <div class="item-unname-block__icon">
-                        <i class="fa fa-desktop fa-2x"></i>
-                    </div>
-                    <div class="item-unname-block__content content-item-unname-block">
-                        <div class="content-item-unname-block__header header-item-unname-block">
-                            <div class="header-item-unname-block__title">
-                                Web Designer
-                            </div>
-                            <div class="header-item-unname-block__date">
-                                2015 Oct - 2017 Jan
-                            </div>
-                        </div>
-                        <div class="content-item-unname-block__text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </div>
-                    </div>
-                </div>
+          <div class="unname-block__content content-unname-block">
+            <div class="content-unname-block__title">
+              My experiences
             </div>
+            <div class="content-unname-block__text">
+              Previous companies and my tasks
+            </div>
+            <div class="content-unname-block__item item-unname-block">
+              <div class="item-unname-block__icon">
+                <i class="fa fa-desktop fa-2x"></i>
+              </div>
+              <div class="item-unname-block__content content-item-unname-block">
+                <div class="content-item-unname-block__header header-item-unname-block">
+                  <div class="header-item-unname-block__title">
+                    Graphic Designer
+                  </div>
+                  <div class="header-item-unname-block__date">
+                    2014 Jul - 2015 Sep
+                  </div>
+                </div>
+                <div class="content-item-unname-block__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+              </div>
+            </div>
+
+            <div class="content-unname-block__item item-unname-block">
+              <div class="item-unname-block__icon">
+                <i class="fa fa-desktop fa-2x"></i>
+              </div>
+              <div class="item-unname-block__content content-item-unname-block">
+                <div class="content-item-unname-block__header header-item-unname-block">
+                  <div class="header-item-unname-block__title">
+                    Web Designer
+                  </div>
+                  <div class="header-item-unname-block__date">
+                    2015 Oct - 2017 Jan
+                  </div>
+                </div>
+                <div class="content-item-unname-block__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!-- experiences=education=unname-block -->
+      <!-- experiences=education=unname-block -->
 
-    <div class="unname-block education">
+      <div class="unname-block education">
         <div class="unname-block-content-wrapper">
-            <div class="unname-block__content content-unname-block">
-                <div class="content-unname-block__title">
-                    My education
-                </div>
-                <div class="content-unname-block__text">
-                    In cursus orci non ipsum gravida dignissim
-                </div>
-                <div class="content-unname-block__item item-unname-block">
-                    <div class="item-unname-block__icon">
-                        <i class="fa fa-desktop fa-2x"></i>
-                    </div>
-                    <div class="item-unname-block__content content-item-unname-block">
-                        <div class="content-item-unname-block__header header-item-unname-block">
-                            <div class="header-item-unname-block__title">
-                                Master in Design
-                            </div>
-                            <div class="header-item-unname-block__date">
-                                2012 Jan - 2014 May
-                            </div>
-                        </div>
-                        <div class="content-item-unname-block__text">
-                            Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper
-                            dignissim eu
-                            in
-                            neque.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-unname-block__item item-unname-block">
-                    <div class="item-unname-block__icon">
-                        <i class="fa fa-desktop fa-2x"></i>
-                    </div>
-                    <div class="item-unname-block__content content-item-unname-block">
-                        <div class="content-item-unname-block__header header-item-unname-block">
-                            <div class="header-item-unname-block__title">
-                                Bachelor of Arts
-                            </div>
-                            <div class="header-item-unname-block__date">
-                                2008 May - 2011 Dec
-                            </div>
-                        </div>
-                        <div class="content-item-unname-block__text">
-                            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        </div>
-                    </div>
-                </div>
+          <div class="unname-block__content content-unname-block">
+            <div class="content-unname-block__title">
+              My education
             </div>
+            <div class="content-unname-block__text">
+              In cursus orci non ipsum gravida dignissim
+            </div>
+            <div class="content-unname-block__item item-unname-block">
+              <div class="item-unname-block__icon">
+                <i class="fa fa-desktop fa-2x"></i>
+              </div>
+              <div class="item-unname-block__content content-item-unname-block">
+                <div class="content-item-unname-block__header header-item-unname-block">
+                  <div class="header-item-unname-block__title">
+                    Master in Design
+                  </div>
+                  <div class="header-item-unname-block__date">
+                    2012 Jan - 2014 May
+                  </div>
+                </div>
+                <div class="content-item-unname-block__text">
+                  Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in
+                  neque.
+                </div>
+              </div>
+            </div>
+
+            <div class="content-unname-block__item item-unname-block">
+              <div class="item-unname-block__icon">
+                <i class="fa fa-desktop fa-2x"></i>
+              </div>
+              <div class="item-unname-block__content content-item-unname-block">
+                <div class="content-item-unname-block__header header-item-unname-block">
+                  <div class="header-item-unname-block__title">
+                    Bachelor of Arts
+                  </div>
+                  <div class="header-item-unname-block__date">
+                    2008 May - 2011 Dec
+                  </div>
+                </div>
+                <div class="content-item-unname-block__text">
+                  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="unname-block__avatar">
-            <img class="unname-block__img" src="images/3.jpg">
+          <img class="unname-block__img" src="images/3.jpg" />
         </div>
-    </div>
+      </div>
 
-    <div class="strategy">
+      <div class="strategy">
         <div class="strategy-wrapper">
-            <div class="strategy__avatar">
-                <img class="strategy__img" src="images/6.jpg">
+          <div class="strategy__avatar">
+            <img class="strategy__img" src="images/6.jpg" />
+          </div>
+          <div class="strategy__content content-strategy">
+            <div class="content-strategy__icon">
+              <i class="fa fa-star fa-2x"></i>
             </div>
-            <div class="strategy__content content-strategy">
-                <div class="content-strategy__icon">
-                    <i class="fa fa-star fa-2x"></i>
-                </div>
-                <div class="content-strategy__main"> Proin lobortis eu diam et fasilisis. Fusce nisi nibh, molestie in
-                    vestibulum quis, auctor et orci.
-                </div>
-                <div class="content-strategy__text"> Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu,
-                    iaculis conque sem. </div>
+            <div class="content-strategy__main">
+              Proin lobortis eu diam et fasilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.
             </div>
+            <div class="content-strategy__text">
+              Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu, iaculis conque sem.
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <footer class="footer">
+      <footer class="footer">
         <div class="footer-feedback-wrapper">
-            <div class="footer__feedback feedback-footer">
-                <div class="feedback-footer__title">
-                    Say hello..
-                </div>
-                <div class="feedback-footer__text">
-                    Integer ut consectetur est. In cursus orci non ipsum gravida dignissum.
-                </div>
-                <div class="feedback-footer__inputs-block">
-                    <div class="input__name">
-                        <input value="Your Name" />
-                    </div>
-                    <div class="input__email">
-                        <input value="Your Email" />
-                    </div>
-                    <div class="input__text">
-                        <input value="Write your message..." />
-                    </div>
-                    <div class="input__button">
-                        <button> Send </button>
-                    </div>
-                </div>
+          <div class="footer__feedback feedback-footer">
+            <div class="feedback-footer__title">
+              Say hello..
             </div>
+            <div class="feedback-footer__text">
+              Integer ut consectetur est. In cursus orci non ipsum gravida dignissum.
+            </div>
+            <div class="feedback-footer__inputs-block">
+              <div class="input__name">
+                <input value="Your Name" />
+              </div>
+              <div class="input__email">
+                <input value="Your Email" />
+              </div>
+              <div class="input__text">
+                <input value="Write your message..." />
+              </div>
+              <div class="input__button">
+                <button>Send</button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="flex-box block-s">
-            <img class="img5" src="images/2.jpg">
+          <img class="img5" src="images/2.jpg" />
         </div>
 
         <div class="flex-box flex-box_column block-m">
-            <div>Visit my office</div>
-            <div>456 New Street 22000, New York City, USA</div>
-            <div>Contact.</div>
-            <div class="flex-box">
-                <div> fa </div>
-                <div> 01-0110-0220 </div>
-            </div>
-            <div class="flex-box">
-                <div> fa </div>
-                <div> hello@company.co </div>
-            </div>
-            <div class="flex-box">
-                <div> fa </div>
-                <div> company.co </div>
-            </div>
+          <div>Visit my office</div>
+          <div>456 New Street 22000, New York City, USA</div>
+          <div>Contact.</div>
+          <div class="flex-box">
+            <div>fa</div>
+            <div>01-0110-0220</div>
+          </div>
+          <div class="flex-box">
+            <div>fa</div>
+            <div>hello@company.co</div>
+          </div>
+          <div class="flex-box">
+            <div>fa</div>
+            <div>company.co</div>
+          </div>
         </div>
-    </footer>
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>

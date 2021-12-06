@@ -1,0 +1,25 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.header__logo {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 white;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.nav__link {
+  margin-right: 15px;
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
