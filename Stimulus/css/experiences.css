@@ -1,0 +1,8 @@
+/* .experiences = .education = unname-block*/
+/* как объединить классы */
+.experiences {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    background: rgb(233, 113, 76);
+}

@@ -1,0 +1,51 @@
+.activity {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+.activity-content-wrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 25%;
+}
+
+.activity-block-design {
+    background: rgb(228, 174, 88);
+    color: white;
+}
+
+.activity-block-strategy {
+    background: rgb(233, 113, 76);
+    color: white;
+}
+.activity-block-app {
+    background: black;
+    color: white;
+}
+.activity-block-coding {
+    background: white;
+    color: black;
+}
+
+.activity__item-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.block-activity__icon {
+    margin-bottom: 20px;
+}
+
+.block-activity__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.block-activity__text {
+    margin: 0px 50px;
+    font-size: 12px;
+}

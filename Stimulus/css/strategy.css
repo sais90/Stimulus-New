@@ -1,0 +1,40 @@
+.strategy {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy__avatar {
+    display: flex;
+    height: 350px;
+    flex-basis: 100%;
+    background-color:black;
+}
+
+.strategy__img {
+   width: 100%;
+   object-fit: cover;
+   opacity: 0.3;
+}
+
+.strategy__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.content-strategy__icon {
+    margin-bottom: 20px;
+}
+
+.content-strategy__main {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content-strategy__text {
+    font-size: 16px;
+}
