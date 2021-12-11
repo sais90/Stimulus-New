@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     flex-basis: 100%;
 }
@@ -16,6 +17,7 @@
     flex-direction: column;
     width: 100%;
     color: white;
+    margin: 50px 0px;
 }
 
 .feedback-footer__title {
@@ -87,7 +89,7 @@
     border: none;
     border-radius: 15px;
     padding: 5px 0px;
-    width: 50%;
+    width: 25%;
     cursor: pointer;
     text-align: center;
 }
@@ -185,3 +187,27 @@
 .web-footer__link:hover {
     color: white;
 }
+
+@media screen and (max-width: 1366px) { 
+
+    .footer-feedback-wrapper {
+        flex-basis: 100%;
+    }
+     
+    .footer__avatar {
+        flex-basis: 50%;
+    }
+    
+    .footer__info {
+        flex-basis: 50%;
+    }
+    
+ }
+
+ @media screen and (max-width: 768px) { 
+
+    .independent-block {
+        flex-basis: 100%;
+    }
+
+ }
