@@ -3,11 +3,11 @@
     justify-content: space-between;
     flex-basis: 100%;
     padding: 50px 200px;
-    position: absolute;
+    /* position: absolute; */
     z-index: 50;
-    left:50%;
-    transform:translate(-50%, -0%);
-    width: 100%;
+    /* left:50%; */
+    /* transform:translate(-50%, -0%);
+    width: 100%; */
 }
 
 .header__logo {

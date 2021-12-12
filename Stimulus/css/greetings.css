@@ -1,8 +1,9 @@
 .greetings {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     flex-basis: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .greetings__avatar {
@@ -16,11 +17,6 @@
     object-fit: cover;
 }
 
-.greetings__content {
-    display: flex;
-    flex-direction: column;
-}
-
 .greetings-content-wrapper {
     display: flex;
     align-items: center;
@@ -28,14 +24,20 @@
     background: rgb(240, 226,215);
 }
 
+.greetings__content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
 .content-greetings__welcome {
-    margin: 0px 0px 20px 50px;
+    margin-bottom:20px;
     font-size: 10px;
     color: gray;
 }
 
 .content-greetings__title {
-    margin: 0px 0px 20px 50px;
+    margin-bottom:20px;
     font-size: 25px;
 }
 
@@ -44,13 +46,13 @@
 }
 
 .content-greetings__text {
-    margin: 0px 50px 20px 50px;
+    margin-bottom:20px;
     font-size: 12px;
     color: gray;
 }
 
 .content-greetings__button {
-    margin: 0px 0px 20px 50px;
+    /* margin: 0px 0px 20px 50px; */
     border-radius: 15px;
     cursor: pointer;
     background: rgb(240, 226,215);
@@ -58,10 +60,18 @@
     border: 3px solid black;
     font-size: 10px;
     font-weight: bold;
-    width: 25%;
+    width: 30%;
 }
 
 .content-greetings__button:hover {
     border:3px solid rgb(228, 174, 88) ;
     color: rgb(228, 174, 88);
 }
+
+@media screen and (max-width: 768px) { 
+
+    .independent-block {
+        flex-basis: 100%;
+    }
+
+ }
