@@ -1,0 +1,17 @@
+/* .experiences = .education = unname-block*/
+/* как объединить классы */
+.experiences {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 100%;
+    background: rgb(233, 113, 76);
+}
+
+@media screen and (max-width: 768px) { 
+
+    .independent-block {
+        flex-basis: 100%;
+    }
+
+ }
