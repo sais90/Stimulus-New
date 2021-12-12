@@ -1,0 +1,75 @@
+/* .experiences = .education = unname-block*/
+/* как объединить классы */
+
+.unname-block__avatar {
+    display: flex;
+    height: 450px;
+    flex-basis: 50%;
+}
+
+.unname-block__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.unname-block-content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.unname-block__content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 50px;
+}
+
+.content-unname-block__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.content-unname-block__text {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.content-unname-block__item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item-unname-block__icon {
+    margin-bottom: 20px;
+}
+
+.item-unname-block__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.content-item-unname-block__header {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+
+.header-item-unname-block__title {
+    font-size: 25px;
+}
+
+.header-item-unname-block__date {
+    font-size: 16px;
+    color: black;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) { 
+
+    .independent-block {
+        flex-basis: 100%;
+    }
+
+ }

@@ -4,30 +4,41 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> index </title>
-    <link rel="stylesheet" href="styles/index.css">
+    <title> Stimulus </title>
     <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/greetings.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/activity.css">
+    <link rel="stylesheet" href="styles/unname-block.css">
+    <link rel="stylesheet" href="styles/experiences.css">
+    <link rel="stylesheet" href="styles/education.css">
+    <link rel="stylesheet" href="styles/strategy.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/media.css">
+
 </head>
 
 <body>
     <header class="header">
-        <!-- <div class="header__greetings"> -->
+        <!-- <a name="header"></a> -->
         <div class="header__logo">Stimulus</div>
         <div class="header__nav nav-header">
             <a class="nav-header__link" href="#skills">HOME</a>
-            <a class="nav-header__link" href="#footer">ABOUT ME</a>
-            <a class="nav-header__link" href="#activity">EXPERIENCES</a>
-            <a class="nav-header__link" href="#education">TESTIMONIAL</a>
-            <a class="nav-header__link" href="#experiences">CONTACT</a>
+            <a class="nav-header__link" href="#education">ABOUT ME</a>
+            <a class="nav-header__link" href="#experiences">EXPERIENCES</a>
+            <a class="nav-header__link" href="#strategy">TESTIMONIAL</a>
+            <a class="nav-header__link" href="#footer">CONTACT</a>
         </div>
     </header>
+
     <div class="greetings">
-        <div class="greetings__avatar">
+        <div class="greetings__avatar independent-block">
             <img class="greetings__img" src="images/5.jpg">
         </div>
 
-        <!-- уточнить название обертки -->
-        <div class="greetings-content-wrapper">
+        <div class="greetings-content-wrapper independent-block">
             <div class="greetings__content content-greetings">
                 <div class="content-greetings__welcome">
                     WELCOME TO MY WEBSITE
@@ -48,16 +59,14 @@
     </div>
 
     <div class="skills">
-        <div class="skills-content-wrapper">
+        <div class="skills-content-wrapper independent-block">
             <div class="skills__content content-skills">
                 <div class="content-skills__title">
                     Donec auctor
                 </div>
-                <a class="content-skills__link" href="#skills">
+                <a class="content-skills__link" href="#header">
                     Sed vulputate vitae diam quis bibendum
                 </a>
-                <!-- <div class="donec__text content-text text text_s text_orange">Sed vulputate vitae diam quis bibendum
-                        </div> -->
                 <div class="content-skills__text">
                     Phasellus vulputate tellus nec tortor varius
                     elementum. Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu, iaculis congue sem.
@@ -69,18 +78,22 @@
                 </div>
             </div>
         </div>
-        <div class="skills__avatar">
+
+        <div class="skills__avatar independent-block">
             <img class="skills__img" src="images/1.jpg">
         </div>
-        <div class="skills-rate-wrapper">
+
+        <div class="skills-rate-wrapper independent-block">
             <div class="skills__rate rate-skills">
                 <div class="rate-skills__title">
+                    <a name="skills"></a>
                     My Skills
                 </div>
                 <div class="rate-skills__text">
                     Photoshop. HTML CSS JS. Web Design
                 </div>
-                <div class="rate-skills__item">
+
+                <div class="rate-skills__item item-rate-skills">
                     <div class="item-rate-skills__title">
                         Frontend Design
                     </div>
@@ -93,7 +106,7 @@
                     <div class="diagram-skills__right diagram-10"></div>
                 </div>
 
-                <div class="rate-skills__item">
+                <div class="rate-skills__item item-rate-skills">
                     <div class="item-rate-skills__title">
                         Backend Processing
                     </div>
@@ -106,7 +119,7 @@
                     <div class="diagram-skills__right diagram-30"></div>
                 </div>
 
-                <div class="rate-skills__item">
+                <div class="rate-skills__item item-rate-skills">
                     <div class="item-rate-skills__title">
                         HTML5 & CSS3
                     </div>
@@ -118,15 +131,13 @@
                     <div class="diagram-skills__left diagram-80"></div>
                     <div class="diagram-skills__right diagram-20"></div>
                 </div>
-
             </div>
         </div>
-
     </div>
 
 
     <div class="activity">
-        <div class="item-block-wrapper block-wrapper-1">
+        <div class="activity-content-wrapper activity-block-design independent-block">
             <div class="activity__item-block block-activity">
                 <div class="block-activity__icon">
                     <i class="fa fa-desktop fa-2x"></i>
@@ -139,7 +150,8 @@
                 </div>
             </div>
         </div>
-        <div class="item-block-wrapper block-wrapper-2">
+
+        <div class="activity-content-wrapper activity-block-strategy independent-block">
             <div class="activity__item-block block-activity">
                 <div class="block-activity__icon">
                     <i class="fa fa-send fa-2x"></i>
@@ -152,7 +164,8 @@
                 </div>
             </div>
         </div>
-        <div class="item-block-wrapper block-wrapper-3">
+
+        <div class="activity-content-wrapper activity-block-app independent-block">
             <div class="activity__item-block block-activity">
                 <div class="block-activity__icon">
                     <i class="fa fa-calendar fa-2x"></i>
@@ -165,7 +178,8 @@
                 </div>
             </div>
         </div>
-        <div class="item-block-wrapper block-wrapper-4">
+
+        <div class="activity-content-wrapper activity-block-coding independent-block">
             <div class="activity__item-block block-activity">
                 <div class="block-activity__icon">
                     <i class="fa fa-html5 fa-2x"></i>
@@ -180,13 +194,15 @@
         </div>
     </div>
 
+    <!-- experiences=education=unname-block -->
     <div class="unname-block experiences">
-        <div class="unname-block__avatar">
+        <div class="unname-block__avatar independent-block">
             <img class="unname-block__img" src="images/4.jpg">
         </div>
-        <div class="unname-block-content-wrapper">
+        <div class="unname-block-content-wrapper independent-block">
             <div class="unname-block__content content-unname-block">
                 <div class="content-unname-block__title">
+                    <a name="experiences"></a>
                     My experiences
                 </div>
                 <div class="content-unname-block__text">
@@ -236,9 +252,10 @@
     <!-- experiences=education=unname-block -->
 
     <div class="unname-block education">
-        <div class="unname-block-content-wrapper">
+        <div class="unname-block-content-wrapper independent-block">
             <div class="unname-block__content content-unname-block">
                 <div class="content-unname-block__title">
+                    <a name="education"></a>
                     My education
                 </div>
                 <div class="content-unname-block__text">
@@ -259,9 +276,7 @@
                         </div>
                         <div class="content-item-unname-block__text">
                             Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper
-                            dignissim eu
-                            in
-                            neque.
+                            dignissim eu in neque.
                         </div>
                     </div>
                 </div>
@@ -286,31 +301,30 @@
                 </div>
             </div>
         </div>
-        <div class="unname-block__avatar">
+        <div class="unname-block__avatar independent-block">
             <img class="unname-block__img" src="images/3.jpg">
         </div>
     </div>
 
-    <div class="strategy">
-        <div class="strategy-wrapper">
-            <div class="strategy__avatar">
-                <img class="strategy__img" src="images/6.jpg">
+    <div class="strategy independent-block">
+        <div class="strategy__avatar">
+            <img class="strategy__img" src="images/6.jpg">
+        </div>
+        <div class="strategy__content content-strategy">
+            <div class="content-strategy__icon">
+                <a name="strategy"></a>
+                <i class="fa fa-star fa-2x"></i>
             </div>
-            <div class="strategy__content content-strategy">
-                <div class="content-strategy__icon">
-                    <i class="fa fa-star fa-2x"></i>
-                </div>
-                <div class="content-strategy__main"> Proin lobortis eu diam et fasilisis. Fusce nisi nibh, molestie in
-                    vestibulum quis, auctor et orci.
-                </div>
-                <div class="content-strategy__text"> Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu,
-                    iaculis conque sem. </div>
+            <div class="content-strategy__main"> Proin lobortis eu diam et fasilisis. Fusce nisi nibh, molestie in
+                vestibulum quis, auctor et orci.
             </div>
+            <div class="content-strategy__text"> Curabitur at pulvinar ante. Duis dui urna, fausibus eget felis eu,
+                iaculis conque sem. </div>
         </div>
     </div>
 
     <footer class="footer">
-        <div class="footer-feedback-wrapper">
+        <div class="footer-feedback-wrapper independent-block">
             <div class="footer__feedback feedback-footer">
                 <div class="feedback-footer__title">
                     Say hello..
@@ -318,45 +332,61 @@
                 <div class="feedback-footer__text">
                     Integer ut consectetur est. In cursus orci non ipsum gravida dignissum.
                 </div>
-                <div class="feedback-footer__inputs-block">
-                    <div class="input__name">
-                        <input value="Your Name" />
-                    </div>
-                    <div class="input__email">
-                        <input value="Your Email" />
-                    </div>
-                    <div class="input__text">
-                        <input value="Write your message..." />
-                    </div>
-                    <div class="input__button">
-                        <button> Send </button>
-                    </div>
+                <div class="feedback-footer__inputs-block footer-inputs">
+                    <input class="footer-inputs__name" value="Your Name" />
+                    <input class="footer-inputs__email" value="Your Email" />
+                    <textarea class="footer-inputs__text"> Write your message... </textarea>
+                    <button class="footer-inputs__button">
+                        Send
+                    </button>
                 </div>
             </div>
         </div>
 
-        <div class="flex-box block-s">
-            <img class="img5" src="images/2.jpg">
+        <div class="footer__avatar independent-block">
+            <img class="footer__img" src="images/2.jpg">
         </div>
 
-        <div class="flex-box flex-box_column block-m">
-            <div>Visit my office</div>
-            <div>456 New Street 22000, New York City, USA</div>
-            <div>Contact.</div>
-            <div class="flex-box">
-                <div> fa </div>
-                <div> 01-0110-0220 </div>
+        <div class="footer__info info-footer independent-block">
+            <div class="info-footer__adres adres-footer">
+                <div class="adres-footer__title">
+                    Visit my office
+                </div>
+                <div class="adres-footer__text">
+                    456 New Street 22000, New York City, USA
+                </div>
             </div>
-            <div class="flex-box">
-                <div> fa </div>
-                <div> hello@company.co </div>
-            </div>
-            <div class="flex-box">
-                <div> fa </div>
-                <div> company.co </div>
+            <div class="info-footer__contact contact-footer">
+                <div class="contact-footer__title">
+                    <a name="footer"></a>
+                    Contact.
+                </div>
+                <div class="contact-footer__phone phone-footer">
+                    <div class="phone-footer__icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="phone-footer__text">
+                        01-0110-0220
+                    </div>
+                </div>
+                <div class="contact-footer__email email-footer">
+                    <div class="email-footer__icon">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <a class="email-footer__link" href="#HEADER">
+                        hello@company.co
+                    </a>
+                </div>
+                <div class="contact-footer__web web-footer">
+                    <div class="web-footer__icon">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <a class="web-footer__link" href="#SKILS">
+                        company.co
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
 </body>
-
 </html>
